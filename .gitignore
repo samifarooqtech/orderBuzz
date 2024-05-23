@@ -1,0 +1,20 @@
+# Ignore the virtual environment directory
+server/OrdBuzzVirtualEnv/
+
+# Ignore node_modules directory for React
+client/node_modules/
+
+# Ignore backup directory
+bkp/
+
+# Ignore Python bytecode files
+*.pyc
+__pycache__/
+
+# Ignore environment variables file
+.env
+
+# Ignore other system-specific or IDE-specific files
+*.DS_Store
+.vscode/
+.idea/

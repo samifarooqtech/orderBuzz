@@ -1,0 +1,13 @@
+CREATE TABLE Customer (
+  id SERIAL PRIMARY KEY,
+  username VARCHAR(80) UNIQUE NOT NULL,
+  password_hash VARCHAR(128) NOT NULL
+);
+
+ALTER TABLE Customer
+ADD COLUMN first_name VARCHAR(50) NOT NULL,
+ADD COLUMN last_name VARCHAR(50) NOT NULL,
+ADD COLUMN email VARCHAR(255) UNIQUE NOT NULL,
+ADD COLUMN phone VARCHAR(20);
+
+alter table customer alter column password_hash type varchar(600);
