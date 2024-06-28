@@ -1,0 +1,14 @@
+flask
+flask-sqlalchemy
+flask-bcrypt
+flask-migrate
+#psycopg2  # Add this line for PostgreSQL connection
+#flask_bcrypt-1.0.1
+python-dotenv
+
+Flask
+Flask-Cors
+Flask-Migrate
+Flask-SQLAlchemy
+psycopg2-binary
+Werkzeug
